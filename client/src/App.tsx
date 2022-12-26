@@ -1,5 +1,11 @@
+import Login from "./pages/Login/Login";
+
 function App() {
-  return <div className="App">zdr bb</div>;
+  return (
+    <div>
+      <Login />
+    </div>
+  );
 }
 
 export default App;
