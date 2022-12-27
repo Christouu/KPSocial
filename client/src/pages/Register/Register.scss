@@ -1,4 +1,4 @@
-.login {
+.register {
   height: 100vh;
   background-color: rgb(193, 252, 201);
   display: flex;
@@ -8,6 +8,7 @@
   .card {
     width: 50%;
     display: flex;
+    flex-direction: row-reverse;
     background-color: white;
     border-radius: 10px;
     min-height: 600px;
@@ -16,7 +17,7 @@
     .left {
       flex: 1;
       background: linear-gradient(rgba(29, 51, 54, 0.5), rgba(29, 51, 54, 0.5)),
-        url("https://images.pexels.com/photos/1036804/pexels-photo-1036804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+        url("https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
           center;
       background-size: cover;
       padding: 50px;
