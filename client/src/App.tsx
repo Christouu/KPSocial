@@ -11,6 +11,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Leftbar from "./components/Leftbar/Leftbar";
 import Rightbar from "./components/Rightbar/Rightbar";
 import Home from "./pages/Home/Home";
+import Profile from "./pages/Profile/Profile";
 
 function App() {
   //this layour is for repeating components
@@ -39,8 +40,12 @@ function App() {
       //this seems like angular routing... (meh angular)
       children: [
         {
-          path: "/home",
+          path: "/",
           element: <Home />,
+        },
+        {
+          path: "/profile/:id",
+          element: <Profile />,
         },
       ],
     },
