@@ -15,7 +15,7 @@ import Home from "./pages/Home/Home";
 import Profile from "./pages/Profile/Profile";
 
 function App() {
-  const currentUser = false;
+  const currentUser = true;
 
   //this layour is for repeating components
   //we are going to use navbar, left and right bar on almost every page , so it's a bad practise to repeat them on very page
