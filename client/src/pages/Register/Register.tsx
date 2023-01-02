@@ -6,7 +6,7 @@ const Register = () => {
     <div className="register">
       <div className="card">
         <div className="left">
-          <h1>Hello world</h1>
+          <h1>KP Social</h1>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis
             rem praesentium necessitatibus laudantium cumque asperiores
@@ -22,7 +22,7 @@ const Register = () => {
         </div>
         <div className="right">
           <h1>Register</h1>
-          <form>
+          <form data-testid="form">
             <input type="text" placeholder="Username" />
             <input type="email" placeholder="Email" />
             <input type="password" placeholder="Password" />
