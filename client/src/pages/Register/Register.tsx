@@ -23,10 +23,10 @@ const Register = () => {
         <div className="right">
           <h1>Register</h1>
           <form data-testid="form">
-            <input type="text" placeholder="Username" />
-            <input type="email" placeholder="Email" />
-            <input type="password" placeholder="Password" />
-            <input type="text" placeholder="Name" />
+            <input data-testid="input" type="text" placeholder="Username" />
+            <input data-testid="input" type="email" placeholder="Email" />
+            <input data-testid="input" type="password" placeholder="Password" />
+            <input data-testid="input" type="text" placeholder="Name" />
             <button>Register</button>
           </form>
         </div>
