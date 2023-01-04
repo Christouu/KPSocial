@@ -6,7 +6,7 @@ const Login = () => {
     <div className="login">
       <div className="card">
         <div className="left">
-          <h1>Hello world</h1>
+          <h1 data-testid="mainHeading">KP Social</h1>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis
             rem praesentium necessitatibus laudantium cumque asperiores
