@@ -60,4 +60,11 @@ describe("Test Register Page", () => {
     const name = screen.getByPlaceholderText("Name") as HTMLInputElement;
     expect(name.placeholder).toBe("Name");
   });
+
+  test("Test if form has a button wit htext Register", () => {
+    render(<Register />, { wrapper: MemoryRouter });
+    const formButton = screen.getByRole("button", { name: "Register" });
+    expect(formButton).toBeInTheDocument();
+    expect(formButton.textContent).toBe("Register");
+  });
 });
