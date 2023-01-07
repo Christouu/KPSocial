@@ -1,0 +1,52 @@
+.leftbar {
+  flex: 2;
+  .container {
+    padding: 20px;
+    // width: 300px;
+
+    hr {
+      margin: 10px 0px;
+      border: none;
+      height: 0.5px;
+      background-color: lightgray;
+    }
+    .menu {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      span {
+        font-size: 14px;
+      }
+
+      .user {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        cursor: pointer;
+
+        img {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+
+        span {
+          font-size: 16px;
+        }
+      }
+
+      .item {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        cursor: pointer;
+
+        span {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
