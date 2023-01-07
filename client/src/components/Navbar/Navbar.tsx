@@ -11,24 +11,24 @@ import NotificationsActiveIcon from "@mui/icons-material/NotificationsActive";
 
 const Navbar = () => {
   return (
-    <div className="navbar">
+    <div className="navbar" data-testid="navbar">
       <div className="left">
         <Link to={"/"} style={{ textDecoration: "none" }}>
-          <span>KP Social</span>
+          <span data-testid="leftSideItems">KP Social</span>
         </Link>
-        <HomeIcon />
-        <AppsIcon />
-        <DarkModeIcon />
-        <div className="search">
+        <HomeIcon data-testid="leftSideItems" />
+        <AppsIcon data-testid="leftSideItems" />
+        <DarkModeIcon data-testid="leftSideItems" />
+        <div className="search" data-testid="leftSideItems">
           <SearchIcon />
           <input type="text" placeholder="Search..." />
         </div>
       </div>
       <div className="right">
-        <PersonIcon />
-        <EmailIcon />
-        <NotificationsActiveIcon />
-        <div className="user">
+        <PersonIcon data-testid="rightSideItems" />
+        <EmailIcon data-testid="rightSideItems" />
+        <NotificationsActiveIcon data-testid="rightSideItems" />
+        <div className="user" data-testid="rightSideItems">
           <img
             src={process.env.PUBLIC_URL + "/images/defaultAvatar.jpg"}
             alt="default Avatar picture"
